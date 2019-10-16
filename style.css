@@ -1,0 +1,65 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.App{
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+header h1{
+	text-align: center;
+	margin: 20px 50px 5px 50px;
+	font-size: 38px;
+}
+
+header p{
+	text-align: center;
+	font-size: 20px;
+}
+
+.SoundBox{
+	background: green;
+	width:  100%;
+	display: flex;
+}
+
+.SoundBox > div{
+	height: 100px;
+	width: 100px;
+	flex :1;
+		
+}
+
+.SoundBox1{
+	background: #eb4034;
+}
+
+.SoundBox2{
+	background: #91ff00;
+}
+
+.SoundBox3{
+	background: #6200ff;
+}
+
+.SoundBox4{
+	background: #ff00c3;
+}
+
+.SoundBox5{
+	background: #990b0b;
+}
+
+.SoundBox6{
+	background: #008cff;
+}
